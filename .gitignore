@@ -1,0 +1,91 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Maven specific files
+target/
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+hs_err_pid*
+*.pid
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific files
+.env
+application.properties  # Ignore application.properties
+
+# Exclude IDE config and build directories
+/.idea
+/*.iml
+/.project
+/.classpath
+/.settings/
+.vscode/
+
+# Node.js (if you have front-end)
+node_modules/
+yarn.lock
+package-lock.json
+
+# Exclude compiled class files and build artifacts
+/target/
+/bin/
+/build/
+/dist/
+
+# Ignore generated files from Lombok (if you're using Lombok annotations)
+*.generated.java
+
+
