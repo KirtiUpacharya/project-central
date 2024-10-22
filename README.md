@@ -1,7 +1,3 @@
-Certainly! Below is an example of a **README.md** file for your **Search Service** project based on our previous discussions. This README provides an overview of the project, setup instructions, usage, and other relevant 
-information.
-
-### Example README.md
 
 ```markdown
 # Search Service
